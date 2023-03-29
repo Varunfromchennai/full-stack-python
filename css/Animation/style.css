@@ -1,0 +1,61 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
+.p-box {
+    height: 750px;
+    width: 750px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.c-box {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    /* background-image: linear-gradient(red, green, yellow, violet); */
+    background-color: blueviolet;
+    animation: box-rotate 4s ease-in-out infinite;
+    /* transition: animation 2s ease-in-out; */
+}
+
+@keyframes box-rotate01 {
+    0%,
+    100% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        bottom: 0;
+        right: 0;
+    }
+    50% {
+        bottom: 0;
+        right: 0;
+    }
+    75% {
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@keyframes box-rotate {
+    0% {
+        background-color: red;
+        transform: rotate(90deg);
+    }
+    25% {
+        background-color: yellow;
+        transform: rotate(180deg);
+    }
+    50% {
+        background-color: blue;
+        transform: rotate(270deg);
+    }
+    100% {
+        background-color: green;
+        transform: rotate(360deg);
+    }
+}

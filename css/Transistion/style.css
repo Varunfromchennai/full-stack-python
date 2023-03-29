@@ -1,0 +1,19 @@
+.p-box {
+    background-color: yellow;
+    height: 50vh;
+}
+
+.c-box {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    transition: all 2s cubic-bezier(0.36, -0.48, 0.76, 1.6);
+}
+
+.p-box:hover .c-box {
+    transform: translateY(500px);
+    transform: scale(2);
+    background-color: aqua;
+    /* transform: rotateY(45deg); */
+    /* transform: skew(45deg); */
+}

@@ -1,0 +1,77 @@
+.container {
+    display: grid;
+    background-color: gray;
+    gap: 10px;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100px 100px;
+    /* Contents of Container */
+    /* justify-items: start; */
+    /* align-items: ; */
+    /* Whole Container */
+    /* justify-content: end; */
+    /* align-content: ; */
+}
+
+.box {
+    /* background-color: red; */
+    /* height: 100px; */
+    /* width: 100px; */
+    color: blue;
+    font-size: 32px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.box-3 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 3;
+}
+
+.grid-layout {
+    display: grid;
+    background-color: orchid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-areas: "header header header" "main main sidenav1" "main main sidenav2" "footer footer footer";
+}
+
+.grid-item {
+    color: black;
+    font-size: 32px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item-1 {
+    grid-area: header;
+    background-color: green;
+}
+
+.grid-item-2 {
+    grid-area: main;
+    background-color: blueviolet;
+}
+
+.grid-item-3 {
+    grid-area: sidenav1;
+    background-color: yellowgreen;
+}
+
+.grid-item-4 {
+    grid-area: sidenav2;
+    background-color: violet;
+}
+
+.grid-item-5 {
+    grid-area: footer;
+    background-color: darkcyan;
+}

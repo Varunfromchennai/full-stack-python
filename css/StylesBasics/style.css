@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.para {
+    margin-left: 10px;
+    margin: 16px 0 16px 10px;
+    background-color: blueviolet;
+}
+
+.para2 {
+    padding: 10px 20px;
+}
+
+.border {
+    border: 2px double black;
+}
+
+
+/* .para1 {
+    background-color: blueviolet;
+    margin-top: 16px;
+    margin-bottom: 16px;
+} */
+
+
+/* .para2 {
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-bottom: 16px;
+} */

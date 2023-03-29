@@ -1,0 +1,14 @@
+.box {
+    height: 300px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: aquamarine !important;
+    text-align: right;
+}
+
+#p1 {
+    font-size: 10px;
+    font-family: monospace;
+    color: green;
+    font-weight: 800;
+}
